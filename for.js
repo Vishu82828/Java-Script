@@ -22,5 +22,5 @@
 // document.write("smaller")
 
 // write a program to find a number is even or odd using ternary operator. -------------------------
-let n = parseInt(prompt("Enter a Number to find even or odd"))
+let n = parseInt(prompt("Enter a Number to find even or odd"));
 (n%2==0)?alert("even"):alert("odd")
