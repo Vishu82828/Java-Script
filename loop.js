@@ -16,8 +16,12 @@
 //     }
 // }
 
-let ar = [1,2,3,4,5,6,7,8,9,10]
-// for of
-for(let n in ar){
-    console.log(n);
-}
+// let ar = [1,2,3,4,5,6,7,8,9,10]
+// // for of
+// for(let n in ar){
+//     console.log(n);
+// }
+
+let ar = [1,2,3,4,5]
+ar.push(6,7,8);
+document.write(ar)
