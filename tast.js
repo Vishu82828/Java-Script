@@ -8,6 +8,9 @@
 // document.write(ar)
 
 let ar = [10,8,7,5,4,3,2,1]
-let pt = ar.slice(1,3) //slice is use for trim from array
-document.write(pt)
+// let pt = ar.slice(1,3) //slice is use for trim from array
+
+// splice add element to the array
+let pt2 =ar.splice(1,6,1,2,3,"vishu")//(index, no of element, "adding element")
+document.write(ar)
 // document.write(ar)
