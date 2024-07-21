@@ -8,13 +8,13 @@
 function sum(){
     let a = parseInt(prompt("enter first no"))
     let b = parseInt(prompt("enter first no"))
-    // alert(a+b)
+    alert(a+b)
     return a+b
 }
 
 // alert (sum());
-let c = sum()
-alert(c*c)
+// let c = sum()
+// alert(c*c)
 
 // without parameter & no return value 
 // without para & return value 
