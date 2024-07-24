@@ -7,9 +7,9 @@
 
 for(var i=1; i<=5; i++){
     for(var k=1; k<=i; k++){
-        document.write("* ");
+        console.log.write("* ");
     }
-    document.write("<br>");
+    console.log("<br>");
 }
 
 // let a='5'
