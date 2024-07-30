@@ -12,6 +12,17 @@ const user = {
 // console.log(typeof user[mySymbol]);
 
 user.greeting = function(){
-    console.log(`Hello, ${this.name}`);
+    // console.log(`Hello, ${this.name}`);
 }
-console.log(user.greeting());
+// console.log(user.greeting());
+
+const course = {
+    course_name : "javaScript",
+    course_instructor: "hitish"
+}
+
+// console.log(`the name of my course instuctor is, ${course_instructor}`);
+// console.log(course_instructor);
+const {course_instructor: hBro} = course
+// console.log(course_instructor);
+console.log(hBro);
