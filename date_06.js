@@ -24,5 +24,37 @@ console.log(name)*/
 //2 object ko milkar naya object banao using spread operator 
 
 //destructring object
-let {empname,empd } = { emp_name :"Priyanka",  emp_desi : "hr"}
-console.log(empname)
+// let ar=[empname,empd ] = ["vishu","hr"]
+// console.log(empname);
+
+//Array of Object is used to store multiple data on employee.
+let employee = [
+    {
+        emp_name : "vishu",
+        emp_age : 24
+    },
+    {
+        emp_name : "aniket",
+        emp_age : 20
+    },
+    {
+        emp_name : "om",
+        emp_age : 22
+    },
+    {
+        emp_name : "ritiesh",
+        emp_age : 23
+    },
+    {
+        emp_name : "animesh",
+        emp_age : 21
+    }
+]
+//let y = employee.map((p)=>{return p.emp_name})
+// let data=employee.filter((p)=>{return p.emp_age>22})
+// console.log(data);
+
+let ob = {emp_name:"ani",emp_age:25}
+employee.push(ob)
+
+console.log(employee)
