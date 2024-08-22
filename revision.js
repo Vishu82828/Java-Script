@@ -1,0 +1,1 @@
+const rewrite = document.getElementById('home').innerText = "Home";
