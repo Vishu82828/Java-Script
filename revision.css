@@ -20,3 +20,24 @@
         }
     }
 }
+#boxes{
+    text-align: center;
+    .box{
+        height: 150px;
+        width: 150px;
+        background-color: aquamarine;
+        border: solid 2px black;
+    }
+    /* .box{
+        height: 150px;
+        width: 150px;
+        background-color: antiquewhite;
+        border: solid 2px black;
+    }
+    .box{
+        height: 150px;
+        width: 150px;
+        background-color: chocolate;
+        border: solid 2px black;
+    } */
+}
