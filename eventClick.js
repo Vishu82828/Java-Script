@@ -1,12 +1,12 @@
-// const btn = document.querySelector("#btn1")
+const btn = document.querySelector("#btn1")
 
-// btn.onclick = (e) => {
-//     console.log('clicked')
-//     console.log(e.type)
-//     console.log(e.target)
-//     console.log(e.clientX)
-//     console.log(e.clientY)
-// }
+btn.onclick = (e) => {
+    console.log('clicked')
+    console.log(e.type)
+    console.log(e.target)
+    console.log(e.clientX)
+    console.log(e.clientY)
+}
 
 const mode = document.querySelector("#mode")
 const body = document.querySelector("body")
