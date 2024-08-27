@@ -5,12 +5,12 @@
 // n.shift(); // remove starting element of array
 // document.write(n)
 
-function sum(){
-    let a = parseInt(prompt("enter first no"))
-    let b = parseInt(prompt("enter first no"))
-    alert(a+b)
-    return a+b
-}
+// function sum(){
+//     let a = parseInt(prompt("enter first no"))
+//     let b = parseInt(prompt("enter first no"))
+//     alert(a+b)
+//     return a+b
+// }
 
 // alert (sum());
 // let c = sum()
@@ -20,3 +20,26 @@ function sum(){
 // without para & return value 
 // with parameter & with return value 
 // with para & no return value 
+// user defined and predefined.
+// declaration-defination- function calling
+
+// function show(){
+//     alert("hello");
+// }
+
+// show();
+
+function areaOfCircle(){
+    let pi = 3.14
+    let r = parseInt(prompt("enter R"))
+    let area = pi*r*r
+    return area;
+}
+
+console.log(areaOfCircle());
+
+// function cybrom(){
+//     return "placement";
+// }
+
+// console.log(cybrom());

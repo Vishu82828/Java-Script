@@ -25,4 +25,4 @@ mode.addEventListener("click", ()=>{
         body.classList.remove("dark")
     }
     console.log(currentMode)
-})
+}) // set of code is called function
