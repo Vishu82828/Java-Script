@@ -29,17 +29,45 @@
 
 // show();
 
-function areaOfCircle(){
-    let pi = 3.14
-    let r = parseInt(prompt("enter R"))
-    let area = pi*r*r
-    return area;
-}
+// function areaOfCircle(){
+//     let pi = 3.14
+//     let r = parseInt(prompt("enter R"))
+//     let area = pi*r*r
+//     return area;
+// }
 
-console.log(areaOfCircle());
+// console.log(areaOfCircle());
 
 // function cybrom(){
 //     return "placement";
 // }
 
 // console.log(cybrom());
+
+//write a proogram return area of traingle
+
+// function AreaOfTringle(){
+//     const b = parseInt(prompt("enter b"))
+//     const h = parseInt(prompt("enter h"))
+//     const area = 1/2*b*h 
+//     return area
+// }
+
+// area = AreaOfTringle()
+// console.log(area)
+
+// function demo(number){
+//     console.log(number)
+// }
+// demo(90) 
+
+function evenOdd(n){
+    if(n/2==0){
+        console.log("odd")
+    }else {
+        console.log("even")
+    }
+}
+let n = parseInt(prompt("enter no to check even or odd "))
+console.log(evenOdd(n)) 
+
