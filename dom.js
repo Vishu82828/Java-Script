@@ -23,3 +23,4 @@ head.style.margin="20px"
 list.innerHTML = "<u>ORACLE</u>"
 
 //changing only text
+//atterbuate - addisional property of tag
