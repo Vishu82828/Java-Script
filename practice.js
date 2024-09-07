@@ -25,11 +25,11 @@
 //     }
 // }
 
-var ar = []
-for (let i=0; i<10; i++){
-    ar [i] = parseInt(prompt("enter number"))
-    document.write(ar[i]);
-}
+// var ar = []
+// for (let i=0; i<10; i++){
+//     ar [i] = parseInt(prompt("enter number"))
+//     document.write(ar[i]);
+// }
 // document.write(i)
 // Q1. write a program to add all 10 element in an Array
 // Q2. write a program to print an odd no in array from 1 to 20
