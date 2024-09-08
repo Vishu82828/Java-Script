@@ -33,3 +33,25 @@
 // document.write(i)
 // Q1. write a program to add all 10 element in an Array
 // Q2. write a program to print an odd no in array from 1 to 20
+
+// const tweet = prompt('enter your tweets')
+// const cut = tweet.slice(0,140)
+// const tweetCount = tweet.length
+//alert(prompt('you write '+  tweet.length + ' tweet, so remaining tweet has to be croped by = '+ (140- tweet.length) +'\n'+ cut))
+// var name = prompt('Enter your Name')
+// var First_letter = name.slice(0,1)
+// First_letter = First_letter.toUpperCase();
+// var rest_Letter = name.slice(1,name.length)
+// alert('Hello ' +First_letter+rest_Letter)
+
+//BMI = weight(kg) / hight square (meter square) 
+// function BMI (weight, hight){
+//     return Math.round((weight / Math.pow(hight,2)))
+// }
+// let bmi = BMI(65,1.8)
+// console.log(bmi)
+
+var random = Math.random();
+random = random * 6;
+random = Math.floor(random) + 1;
+console.log(random);
