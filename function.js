@@ -61,13 +61,31 @@
 // }
 // demo(90) 
 
-function evenOdd(n){
-    if(n/2==0){
-        console.log("odd")
-    }else {
-        console.log("even")
-    }
-}
-let n = parseInt(prompt("enter no to check even or odd "))
-console.log(evenOdd(n)) 
+// function evenOdd(n){
+//     if(n/2==0){
+//         console.log("odd")
+//     }else {
+//         console.log("even")
+//     }
+// }
+// let n = parseInt(prompt("enter no to check even or odd "))
+// console.log(evenOdd(n)) 
 
+// arrow function always retuen value, if you use or not use it return. 
+//Five type of arrow funtion - [ () => { } || () => ( ) || () => || => || => ( ) ]
+    let fun = () => {return "aniket"}
+    console.log(fun())
+
+    let fun1 = (a,b) => (a+b)
+    console.log("fun1 = "+fun1(1,2))
+
+    let fun2 = (a,b) => a*b 
+    console.log("fun2 = "+fun2(2,5))
+
+    let fun3 = a => a*a*a
+    console.log("fun3 = "+fun3(4))
+
+    let fun4 = a => (a+8)
+    console.log("fun4 = "+fun4(2))
+
+    //call-back function is used to pass argument in function
