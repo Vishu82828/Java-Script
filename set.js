@@ -11,6 +11,6 @@ let num = 1;
 let fun = setInterval(()=>{
     if(num == 10){
         clearInterval(fun)
-    }
+   }
     console.log(num++)
 },2000)
