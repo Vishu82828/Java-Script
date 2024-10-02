@@ -13,4 +13,6 @@ async function fch(){
     //     return acc;
     // }, {});
     // console.log(objData);
+    let em = stringData.map((e)=>{return e.email})
+    console.log(em)
 }
