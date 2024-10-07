@@ -11,6 +11,8 @@ async function fetch_data() {
         <td>${value.name}</td>
         <td>${value.username}</td>
         <td>${value.email}</td>
+        <td><button onclick="mydel('${value.id}')">DElete</button></td>
+        <td><button onclick="myedit('${value.id}')">Edit</button></td>
     </tr>    
     
     `).join("")
@@ -34,4 +36,26 @@ function insdata(){
     })
     .then(response=>alert("insert successfully !!!!"))
     .catch(t=>alert("error"))
+}
+fetch_data()
+
+function mydel(id){
+    fetch(`http://localhost:3000/student/${id}`,{
+        method:"DELETE"
+    })
+    .then(r=>alert("deleted"))
+}
+
+async function myedit(id) {
+    let stdata = await fetch(`http://localhost:3000/student/${id}`);
+    let data = await stdata.json();
+    let frm = `
+    <input type="text" value="${data.id}"><br><br>
+    <input type="text" value="${data.name}"><br><br>
+    <input type="text" value="${data.username}"><br><br>
+    <input type="text" value="${data.email}"><br><br>
+    <input type="submit" value="update">
+    `;
+
+    document.getElementById('demoo').innerHTML = frm;
 }
